@@ -1,6 +1,6 @@
-# Movie Factions
+# Task Tracker
 
-A Next.js project to explore and select different factions within various movie universes, such as Harry Potter (Muggles and Wizards).
+A Next.js project to manage tasks.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ A Next.js project to explore and select different factions within various movie 
 
 ## Introduction
 
-This project is a simple application built with Next.js that allows users to select different factions from various movie universes. For example, in the Harry Potter universe, users can choose between Muggles and Wizards.
+This project is a simple application built with Next.js that allows users to create tasks.
 
 ## Features
 
@@ -44,12 +44,6 @@ To get started with the project, follow these steps to set it up locally:
 
 ```bash
    cp .env.example .env.local
-```
-
-4. **Create database if not present already**
-
-```bash
-npm run db:create
 ```
 
 4. **Run Drizzle Migrations**
